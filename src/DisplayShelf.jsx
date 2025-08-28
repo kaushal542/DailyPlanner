@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import UpdateShelf from "./UpdateShelf";
 import { useNavigate } from "react-router";
+import Shimmar from "./Shimmar";
 
 const DisplayShelf = () => {
   const [tasks, setTasks] = useState([]);
@@ -46,7 +47,7 @@ const DisplayShelf = () => {
   }
 
   if (loading) {
-    return <p>Loading tasks....</p>;
+    return <Shimmar/>
   }
 
   if (tasks.length === 0) {

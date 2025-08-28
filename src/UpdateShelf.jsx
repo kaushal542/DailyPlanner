@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import axios from 'axios'
 import { useState } from 'react'
 import { useParams, useNavigate } from 'react-router'
+import Shimmar from './Shimmar'
 
 const UpdateShelf = () => {
   const { id } = useParams();
@@ -53,7 +54,7 @@ const UpdateShelf = () => {
   }
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <Shimmar/>
   }
 
   return (
