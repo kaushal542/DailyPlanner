@@ -9,6 +9,12 @@ It supports full **CRUD operations**:
 
 ---
 
+##  Live Demo  
+Check out the live app here:  
+**[Daily Planner Live](https://daily-planner-8api.vercel.app/)**
+
+---
+
 ## 🚀 Features
 - Modern UI using **TailwindCSS**  
 - **Axios** for API requests  
