@@ -26,7 +26,7 @@ const App = () => {
 
         <div className="py-3 text-xl">
           <Link to="/add" className="m-3 ">
-            <button className="p-3 rounded-xl  bg-[#f1f3f6] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff]">
+            <button className="p-3 rounded-xl  bg-[#f1f3f6] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff] transform transition-all duration-300 hover:scale-105 hover:shadow-[6px_6px_10px_#babecc,-6px_-6px_10px_#fff]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -39,7 +39,7 @@ const App = () => {
             </button>
           </Link>
           <Link to="/display" className="m-3">
-            <button className="p-3 rounded-xl  bg-[#f1f3f6] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff]">
+            <button className="p-3 rounded-xl  bg-[#f1f3f6] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff] transform transition-all duration-300 hover:scale-105 hover:shadow-[6px_6px_10px_#babecc,-6px_-6px_10px_#fff]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

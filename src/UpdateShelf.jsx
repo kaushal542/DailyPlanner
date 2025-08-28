@@ -66,7 +66,7 @@ const UpdateShelf = () => {
           type="text"
           value={title}
           placeholder="Title"
-          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none rounded-2xl w-72"
+          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none rounded-2xl w-72 transform transition-all duration-300 focus:shadow-[inset_2px_2px_2px_#babecc,inset_-2px_-2px_2px_#fff]"
           onChange={(e) => setTitle(e.target.value)}
         />{" "}
         <br />
@@ -74,26 +74,26 @@ const UpdateShelf = () => {
           type="date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
-          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none  rounded-2xl w-72"
+          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none  rounded-2xl w-72 transform transition-all duration-300 focus:shadow-[inset_2px_2px_2px_#babecc,inset_-2px_-2px_2px_#fff]"
         />{" "}
         <br />
         <textarea
           placeholder="Add your task here"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none rounded-2xl w-72"
+          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none rounded-2xl w-72 transform transition-all duration-300 focus:shadow-[inset_2px_2px_2px_#babecc,inset_-2px_-2px_2px_#fff]"
         ></textarea>
         <br />
         <button
           type="submit"
-          className="w-72 m-5 p-3 flex justify-center rounded-xl  bg-[#f1f3f6] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff] cursor-pointer"
+          className="w-72 m-5 p-3 flex justify-center rounded-xl  bg-[#f1f3f6] text-[#7027bf] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff] cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-[6px_6px_10px_#babecc,-6px_-6px_10px_#fff]"
         >
           Update
         </button>
          <button
          onClick={() => navigate("/display")}
           type="button"
-          className="w-72 m-5 p-3 flex justify-center rounded-xl  bg-[#f1f3f6] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff] cursor-pointer"
+          className="w-72 m-5 p-3 flex justify-center rounded-xl  bg-[#f1f3f6] text-[#7027bf] shadow-[3px_3px_6px_#babecc,-3px_-3px_6px_#fff] cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-[6px_6px_10px_#babecc,-6px_-6px_10px_#fff]"
         >
           Cancel
         </button>

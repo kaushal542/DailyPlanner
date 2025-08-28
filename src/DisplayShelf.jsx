@@ -59,7 +59,7 @@ const DisplayShelf = () => {
       {tasks.map((task) => (
         <div
           key={task.id}
-          className="bg-[#ebecf0] m-[24px] p-4 w-[300px] h-auto shadow-[8px_8px_15px_#babecc,-8px_-8px_15px_#fff] rounded-2xl"
+          className="bg-[#ebecf0] m-[24px] p-4 w-[300px] h-auto shadow-[8px_8px_15px_#babecc,-8px_-8px_15px_#fff] rounded-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-[12px_12px_20px_#babecc,-12px_-12px_20px_#fff]"
         >
           <p className="text-[#989494] flex justify-end">{task.date}</p>
           <h2 className="text-[#7027bf] p-2 font-semibold text-xl">

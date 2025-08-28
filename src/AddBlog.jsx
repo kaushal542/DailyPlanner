@@ -49,7 +49,7 @@ const AddBlog = () => {
           type="text"
           value={title}
           placeholder="Title"
-          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none rounded-2xl w-72"
+          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none rounded-2xl w-72 transform transition-all duration-300 focus:shadow-[inset_2px_2px_2px_#babecc,inset_-2px_-2px_2px_#fff]"
           onChange={(e) => setTitle(e.target.value)}
         />{" "}
         <br />
@@ -57,14 +57,14 @@ const AddBlog = () => {
           type="date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
-          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none  rounded-2xl w-72"
+          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none  rounded-2xl w-72 transform transition-all duration-300 focus:shadow-[inset_2px_2px_2px_#babecc,inset_-2px_-2px_2px_#fff]"
         />{" "}
         <br />
         <textarea
           placeholder="Add your task here"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_3px_3px_6px_#babecc,inset_-3px_-3px_6px_#fff] focus:outline-none rounded-2xl w-72"
+          className="pl-4 p-2 m-5 text-[#777] shadow-[inset_4px_4px_8px_#babecc,inset_-4px_-4px_8px_#fff] focus:outline-none rounded-2xl w-72 transform transition-all duration-300 focus:shadow-[inset_2px_2px_2px_#babecc,inset_-2px_-2px_2px_#fff]"
         ></textarea>
         <br />
         <button
